@@ -18,7 +18,7 @@ function toggle(){
       <h2>username: {username}</h2>
       <img className="image-size" src={profileImage} alt="" />
       <p>content: {content}</p>
-      <Likebutton likeStyle={like&&"liked"} Likebutton={toggle}/>
+      <Likebutton likeStyle={like} Likebutton={toggle}/>
     </div>
     
     
